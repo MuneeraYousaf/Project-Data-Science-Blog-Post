@@ -1,0 +1,23 @@
+# Project-Data-Science-Blog-Post
+
+Data Science represents a multidisciplinary approach that integrates data analysis, algorithmic innovation, and technological advancement to address sophisticated analytical problems. At its core lies data — extensive volumes of unprocessed information that are systematically stored within databases. This project, conducted as part of the Udacity Data Scientist Nanodegree Program, is dedicated to examining and applying these fundamental principles.
+
+This project aims to identify the most in-demand fields and job roles in the labor market. This information helps tech professionals and job seekers recognize the key skills and programming languages required in each field.The analysis follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework, the project answers several important questions by using StackOverflow survey this helps to find the important questions and the aim of project , including:
+
+What are the most common job titles among StackOverflow users?
+What are the most popular programming languages among developers?
+Is there a relationship between job type and the programming languages used?
+
+## libraries: 
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.ensemble import RandomForestClassifier
+from collections import Counter
+
+## Files
+usastiy_project.ipynb
+survey_results_public.csv
+README.md 
+https://survey.stackoverflow.co 
